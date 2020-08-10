@@ -3,3 +3,9 @@ def square_array (array)
     element ** 2
   end
 end
+
+def summon_captain_planet (array)
+  array.map do |planeteer|
+    planeteer.capitalize + "!"
+  end
+end
