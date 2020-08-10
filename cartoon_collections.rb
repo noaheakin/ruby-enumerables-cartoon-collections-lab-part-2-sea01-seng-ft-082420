@@ -15,3 +15,12 @@ def long_planeteer_calls (array)
     planeteer.length > 4
   end
 end
+
+def find_valid_calls (array)
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  array.find do |element|
+    if valid_calls.include? element
+      element
+    end
+  end
+end
