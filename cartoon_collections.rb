@@ -9,3 +9,11 @@ def summon_captain_planet (array)
     planeteer.capitalize + "!"
   end
 end
+
+def long_planeteer_calls (array)
+  array.each do |planeteer|
+    if planeteer.length < 5
+      p true
+    end
+  end
+end
